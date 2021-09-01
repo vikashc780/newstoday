@@ -11,7 +11,7 @@ export class NewsCard extends Component {
                         <p className="card-text">{this.props.desc}</p>
                         <div className="d-flex justify-content-between">
                         <a href={this.props.newsLink} className="btn btn-primary btn-sm" target="_blank">Read More</a>
-                        <p class="card-text"><small class="text-muted">{this.props.time}</small></p>
+                        <p className="card-text"><small className="text-muted">{this.props.time}</small></p>
                         </div>
                     </div>
                 </div>
